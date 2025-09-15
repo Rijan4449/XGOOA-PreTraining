@@ -6,13 +6,22 @@ This repository contains pre-processing and cleaning scripts for the XGOOA datas
 ### Repository Structure
 XGOOA-PreTraining/  
 │  
-├── Drop_rows/           # Scripts and datasets where rows were dropped for cleaning  
-├── Imputation/          # Scripts and files for handling missing values  
-├── MinMax/              # Min-Max normalization of datasets  
-├── Standardization/     # Standardization of datasets  
-├── check_dataset.ipynb  # Notebook for checking datasets  
-└── README.md            # This file  
+├── Drop_rows/            
+├── Imputation/          
+├── MinMax/              
+├── Standardization/     
+├── check_dataset.ipynb  
+└── README.md            
 
+**Description of Folders**
+
+* Drop_rows: Contains dataset_v2 and its notebook showing rows dropped during cleaning.
+
+* Imputation: Contains scripts for imputing missing values in datasets.
+
+* MinMax: Contains datasets and scripts after applying Min-Max scaling.
+
+* Standardization: Contains datasets and scripts after standardization.
 
   
 ### How to Use
